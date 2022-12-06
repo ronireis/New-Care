@@ -1,0 +1,139 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+.menu{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+.button-menu {
+    background-color: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size:100px;
+    Line-height: 121.9px;
+    color: #515151;
+    
+    
+}
+
+h2 {
+    font-weight: 500;
+    font-size:58px;
+    Line-height: 70.7px;
+    color:#515151 ;
+    margin-top: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size:24px;
+    Line-height: 30px;
+    color: #848484;
+    width: 515px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.button-section {
+    background-color: #ADFF00;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 54px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34.26px;
+    color: #000;;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 30px
+    
+}
+
+@media screen and (max-width: 600px){
+
+    header {
+        display: none;
+    }
+   
+    .logo-image {
+        margin-top: 140px;
+        width: 357px;
+        height: 317px;
+        margin-left: 12px;
+        margin-right: 0;
+
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 58px;
+        Line-height: 48.9px;
+        color: #515150;
+        margin-left: -9px;
+        margin-top: 27px;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 41px;
+        Line-height: 53.7px;
+        color: #515151;
+        margin-top: 7px;
+        margin-left: 0px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-section {
+        background-color: #ADFF00;
+        border-radius: 20.5px;
+        width: 239px;
+        height: 64px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34.26px;
+        color: #000;;
+        border:none;
+        margin-top: 37px;
+        margin-bottom: 30px
+    }
+
+}
